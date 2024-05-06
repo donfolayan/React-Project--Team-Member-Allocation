@@ -147,7 +147,9 @@ function App() {
             />
           }
         ></Route>
-        <Rout path="/GroupedTeamMembers" element={<GroupedTeamMembers />}></Rout>
+        <Route path="/GroupedTeamMembers" element={<GroupedTeamMembers />}>
+          
+        </Route>
       </Routes>
       <Footer />
     </Router>
